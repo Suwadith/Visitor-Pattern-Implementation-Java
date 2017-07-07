@@ -3,6 +3,7 @@
  */
 public class VehicleService {
 
+    /* Returns the total Service charge for all the vehicles that has gone through a full Service process */
     private static int calculateTotal(Vehicle[] vehicles) {
         VehicleInspector inspector = new VehicleInspection();
         int total = 0;
